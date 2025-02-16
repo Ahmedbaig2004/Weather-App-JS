@@ -10,14 +10,14 @@
     <div class="card">
         <div class="search">
             <input type="text" placeholder="Enter City name" spellcheck="false">
-            <button><img src="/images/search.png" alt=""></button>
+            <button><img src="images/search.png" alt=""></button>
             .
         </div>
         <div class="error">
             Please Enter Valid City Name
         </div>
         <div class="weather">
-            <img src="/images/rain.png" class='weather-icon' alt="">
+            <img src="images/rain.png" class='weather-icon' alt="">
             <h1 class="temp"></h1>
             <h2 class="city"></h2>
             <div class="details">
@@ -54,44 +54,44 @@
         }
         else{var data= await response.json();
             if(data.weather[0].main === "mist"){
-                images.src="/images/mist.png"
+                images.src="images/mist.png"
             }
             else if(data.weather[0].main === "Haze"){
-                images.src="/images/haze.png"
+                images.src="images/haze.png"
                 images.style.width="250px"
             }
             else if(data.weather[0].main === "Clouds"){
-                images.src="/images/clouds.png"
+                images.src="images/clouds.png"
                 images.style.width="170px"
 
             }
             else if(data.weather[0].main === "Rain"){
-                images.src="/images/rain.png"
+                images.src="images/rain.png"
                 images.style.width="170px"
 
             }
             else if(data.weather[0].main === "Mist"){
-                images.src="/images/mist.png"
+                images.src="images/mist.png"
                 images.style.width="170px"
 
             }
             else if(data.weather[0].main === "Snow"){
-                images.src="/images/snow.png"
+                images.src="images/snow.png"
                 images.style.width="170px"
 
             }
             else if(data.weather[0].main === "Humidity"){
-                images.src="/images/humidity.png"
+                images.src="images/humidity.png"
                 images.style.width="170px"
 
             }
             else if(data.weather[0].main === "Wind"){
-                images.src="/images/wind.png"
+                images.src="images/wind.png"
                 images.style.width="170px"
 
             }
             else if(data.weather[0].main === "Drizzle"){
-                images.src="/images/drizzle.png"
+                images.src="images/drizzle.png"
                 images.style.width="170px"
 
             }
